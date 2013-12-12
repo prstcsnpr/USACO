@@ -18,9 +18,9 @@ int main() {
   string group, comet;
   fin >> group >> comet;
   if (converte(group) == converte(comet)) {
-    cout << "GO" << endl;
+    fout << "GO" << endl;
   } else {
-    cout << "STAY" << endl;
+    fout << "STAY" << endl;
   }
 }
 

@@ -26,7 +26,7 @@ int main() {
     }
   }
   fout << week[6] << " " << week[0] << " " << week[1] << " " << week[2] << " " << week[3] << " " << week[4] << " " << week[5] << endl;
-  return 0;
+  return EXIT_SUCCESS;
 }
 
 bool isLeapYear(int year) {

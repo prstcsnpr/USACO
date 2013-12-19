@@ -58,5 +58,6 @@ int main() {
   for (vector<string>::iterator i = names.begin(); i != names.end(); ++i) {
     fout << *i << ' ' << people[*i].get_left_money() << endl;
   }
+  return EXIT_SUCCESS;
 }
 

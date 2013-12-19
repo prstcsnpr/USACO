@@ -22,6 +22,7 @@ int main() {
   } else {
     fout << "STAY" << endl;
   }
+  return EXIT_SUCCESS;
 }
 
 int converte(const string& s) {

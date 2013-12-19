@@ -15,5 +15,5 @@ int main() {
     int a, b;
     fin >> a >> b;
     fout << a+b << endl;
-    return 0;
+    return EXIT_SUCCESS;
 }
